@@ -41,14 +41,14 @@ To run this project, you need Python 3 installed on your system. Follow these st
 
 **1. Clone the repository:**
 ```bash
-git clone <your-repository-url>
-cd <repository-folder>
+git clone https://github.com/sandeepamadushan074/graph-based-etl-scheduler.git
+cd graph-based-etl-scheduler
 ```
 
 **2. Install dependencies:**
 Install the required libraries using pip:
 ```bash
-pip install pandas networkx matplotlib streamlit
+pip install pandas numpy networkx matplotlib streamlit
 ```
 *(Note: Database connections are handled using Python's built-in `sqlite3` module).*
 
