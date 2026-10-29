@@ -1,0 +1,4 @@
+Dataset_Rows,Method A: Sequential Baseline,Method B: Basic Topological,Method C: Proposed Critical-Path DAG,Improvement_vs_Seq (%),Improvement_vs_Topo (%)
+10000,2.6707,1.445,1.3587,49.13,5.97
+50000,3.0002,1.8055,1.6786,44.05,7.03
+100000,3.7972,2.2111,2.1987,42.1,0.56
