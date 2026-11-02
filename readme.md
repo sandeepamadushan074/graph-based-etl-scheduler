@@ -97,5 +97,5 @@ This project heavily relies on applied discrete mathematics:
 * **Cycle Detection & Topological Sorting**: Before execution, the system checks for circular dependencies. If the graph is a valid DAG, topological sorting guarantees that every task has its required input data ready before it starts.
 * **Critical Path Method (Upward Rank)**: This is the core of the proposed optimization (Method C). The scheduler calculates the "bottom-level" weight for each node using the recursive formula: 
   $$Rank(u) = t_u + \max_{v \in succ(u)} Rank(v)$$
-  *(Where $t_u$ is the estimated execution time of task $u$, and $succ(u)$ represents its successors).*
+  *(Where t_u is the estimated execution time of task u, and succ(u) represents its successors).*
   Ready tasks are dispatched to parallel workers sorted by this rank, ensuring that the most time-critical paths are processed first to minimize the overall execution time (Makespan).
